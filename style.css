@@ -1,6 +1,36 @@
-.class01 {
-	box-shadow: 1px 5px 13px #ece3e3;
-	padding: 20px;
-	background: #e8f7ff;
+
+body 
+
+	{
+     font-family: Poppins,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    margin-top: 54px;
+
 }
 
+.class01 {
+	box-shadow: 0 5px 35px 0 rgba(0,0,0,.2);
+	padding: 20px;
+	background: #fff;
+}
+
+.main-letter {
+    font-size: 80px;
+    line-height: 1;
+    color: #f9cc4a;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 2px;
+    border-bottom: 5px solid;
+}
+
+h4 {
+	 letter-spacing: 3px;
+}
+
+h1 {
+	font-weight: 700;
+}
