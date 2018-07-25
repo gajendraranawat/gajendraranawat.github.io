@@ -231,4 +231,8 @@ background-image: url("images/Udaipubg.jpg");
 	.banner_desc{
 		padding:5px !important;
 	}
+
+  .row {
+    padding: 25px !important;
+  }
 }
