@@ -225,12 +225,16 @@ background-image: url("images/Udaipubg.jpg");
 	}
 	
 	.sub-title{
-		line-height: 45px;
+		font-size: 36px;
+  line-height: 40px;
 	}
 	
 	.banner_desc{
 		padding:5px !important;
 	}
 
-  
+.ep {
+
+  padding: 25px;
+}
 }

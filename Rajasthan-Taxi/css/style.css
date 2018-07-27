@@ -995,7 +995,7 @@ section.services-section .services-box .services-post:hover .services-content h2
 /* =  about page
 /*-------------------------------------------------*/
 .page-banner-section {
-    padding: 20px 0;
+    padding:32px;
     background: #000000;
     overflow: hidden;
     text-align: center;
