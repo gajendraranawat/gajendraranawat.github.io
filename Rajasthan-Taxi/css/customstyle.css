@@ -201,7 +201,8 @@ background-image: url("images/Udaipubg.jpg");
 @media screen and (max-width: 700px) {
 	
     .navbar-brand span {
-    font-size: 2rem;
+    font-size: 18px;
+    letter-spacing: 0px;
 	}
 	
 	.tour {
