@@ -1,53 +1,61 @@
-<!DOCTYPE html>
 <html>
-<head>
-<title>Gajendra Singh </title>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+.bgimg {
+    background-image: url(bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+</style>
 <body>
 
-<?php include 'header.php'?>
-
-
-<nav>
-<ul>
-<li><i class="fas fa-user"></i> Home </li>
-<li>About </li>
-<li>Contact </li>
-</ul>
-</nav>
-
-<div class="container class01">
-  <div class="row">
-	    <div class="col-md-8">
-           <h1><span class="main-letter">A</span>bout Me</h1><br>
-           <h4>HELLO WORLD!</h4>
-           <h1>I'm a designer.</h1>
-           <h1>Gajendra Ranawat </h1>
-
-           <h4>Freelance Website Designer & Developer India</h4>
-           <p>+91 9571357244 | gajendraranawat23@gmail.com <br />
-            <i class="fa fa-facebook"></i> <i class="fa fa-facebook"></i> <i class="fa fa-facebook"></i>
-            Wordpress | HTML | CSS</p>
-
-           <hr />
-	   </div>
-
-      <div class="col-md-4">
-      <img src="gajendraranawat.github.io/gajendra.jpg" class="img-responsive">
-     </div>
-
-
+<div class="bgimg">
+  <div class="topleft">
+    <p>GS</p>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days left</p>
+  </div>
+  <div class="bottomleft">
+    <p>Contact Me - +91 9571357244</p>
   </div>
 </div>
+
 </body>
 </html>
