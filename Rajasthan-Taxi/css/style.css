@@ -1855,3 +1855,12 @@ footer .contact-info p {
     MARGIN-RIGHT: 10PX;
 }
 
+@media only screen and (max-width: 600px) {
+    section.services-section {
+    padding: 0px 0 !important;
+    background: #f7f7f7;
+}
+.ep {
+    padding: 0px 25px !important;
+}
+}
